@@ -48,11 +48,8 @@ public class Carrito {
 		this.fechadecompra= fechadecompra;		
 		
 	}
-	public float costofinal(Descuento desc) {
+	public float costofinal(Descuento desc) throws ValorCeroException, TotalNegativoException{
 	float total= desc.valorFinal(producto1.costofinal()+ this.producto2.costofinal()+ this.producto3.costofinal());
 		return  total;
-	}
-	
-	
-		
+	}	
 	}

@@ -34,10 +34,10 @@ public class Principal {
 			
 			float resultado= micarrito.costofinal(desporcentajeconTope);
 			System.out.println("costo final es :" + resultado);
-			
+			(ValorCeroException | TotalNegativoException e) ;
+				System.out.println(e);
 		}catch(IOException e) {
 			System.out.println("Error en la Operacion" + e);
+		}	
 		}
-	}
-
-}
+	

@@ -29,7 +29,7 @@ class CarritoTest {
 		
 		Carrito micarrito = new Carrito (producto1, producto2, producto3, LocalDateTime.parse("2023-02-12T11:12:00"));
 		Descuento desfijo= new DescuentoPorcentaje(0.5F);
-		float valorFinal= micarrito.costofinal(desfijo);
+		float valorFinal= micarrito.costofinal(desporcentajeconTope);
 		assertEqual(valorFinal,400);
 		
 	}

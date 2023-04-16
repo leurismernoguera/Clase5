@@ -24,6 +24,4 @@ public class DescuentoPorcentajeConTope extends DescuentoPorcentaje{
 			super.setValorDesc(valor);
 		}
 	}
-	
-
 }
